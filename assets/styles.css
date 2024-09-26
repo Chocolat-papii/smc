@@ -50,13 +50,12 @@ body {
     transition: color 0.3s ease;
 }
 
-.top-nav .nav-links a:hover {
+.top-nav .nav-links a:hover, a.active {
     color: #F1C40F;
 }
 
 .top-nav .nav-links a.active {
     color: #F1C40F;
-    text-decoration: none;
 }
 
 
