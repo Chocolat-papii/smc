@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    color: #2C3E50;
+    color: #333333;
 }
 
 
@@ -16,7 +16,7 @@ body {
     top: 0;
     width: auto;
     z-index: 1000;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 10px rgba(#535453, 0.1);
 }
 
 .top-nav .container {
@@ -75,7 +75,7 @@ a.active {
 
 /* Hero and home Section */
 .hero {
-    background-color: #2C3E50;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 60px 20px;
@@ -102,9 +102,10 @@ section h2 {
 section p {
     font-size: 18px;
     line-height: 1.6;
+    color: #f9f9f9;
 }
 section {
-    background-color: #ECF0F1;
+    background-color: #333333;
     padding: 60px 20px;
     text-align: center;
 }
@@ -129,7 +130,7 @@ section .project-card img {
 
 /* About Section */
 .about {
-    background-color: #ECF0F1;
+    background-color: #535453;
     padding: 60px 20px;
     text-align: center;
 }
@@ -149,7 +150,7 @@ section .project-card img {
 
 .fasci {
     padding: 40px 20px;
-    background-color: #ECF0F1;
+    background-color: #535453;
 }
 
 
@@ -215,7 +216,7 @@ section .project-card img {
 
 /* Footer */
 .footer {
-    background-color: #2C3E50;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 20px;
@@ -270,8 +271,8 @@ section .project-card img {
 /* More Projects */
 
 .more-projects {
-    padding: 10px 0;
-    background-color: #f9f9f9;
+   padding: 10px 20px;
+    background-color: #333333;
     
 }
 
@@ -287,7 +288,7 @@ section .project-card img {
 .contact form {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #ECF0F1;
+    background-color: #000000;
     padding: 20px;
     border-radius: 10px;
 }
@@ -295,7 +296,8 @@ section .project-card img {
 .contact label {
     display: block;
     margin-bottom: 10px;
-    color: #2C3E50;
+    color: #f9f9f9;
+    text-align: left;
     font-size: 16px;
 }
 
@@ -304,11 +306,15 @@ section .project-card img {
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
-    border: 1px solid #BDC3C7;
+    border-bottom: 2px solid #8E44AD;
 }
 
-.contact .btn {
-    background-color: #2C3E50;
+.contact {
+    background-color: #000000;
+}
+
+.btn {
+    background-color: #000000;
     color: #F1C40F;
     padding: 10px 20px;
     text-decoration: none;
