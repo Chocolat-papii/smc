@@ -4,11 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Sibusiso Msimango | Jnr Web Dev </title>
-        <script src="https://kit.fontawesome.com/e6d1f98a15.js" crossorigin="anonymous"></script>
-
+    <title>About Me - Sibusiso Msimango</title>
     <link rel="stylesheet" href="assets/styles.css">
-    <link rel="icon" href="https://i.ibb.co/yVDKbjp/SMCFAV.webp" alt="SMC logo" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/e6d1f98a15.js" crossorigin="anonymous"></script>
     <link rel="icon" href="assets/media/SMCFAV.webp" type="image/x-icon">
 
 </head>
@@ -16,28 +14,32 @@
 
 <body>
     <!-- Top Navigation Bar -->
-    <nav class="top-nav">
-        <div class="container">
-            <a href="index.html" class="logo">SM</a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About</a></li>
+    <nav>
+        <ul class="nav-bar">
+            <li class="logo"><a href="index.html"> SM</a></li>
+            <input type="checkbox" id="check">
+            <span class="menu">
+                <li><a href="index.html" >Home </a></li>
+                <li><a href="about.html"  class="active">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
     </nav>
     <!-- Hero Section -->
     <header class="hero">
         <h1>Sibusiso Msimango</h1>
-        <p>Creativity & Innovation</p>
+        <p>I don’t just build websites; I engineer solutions that position you as a leader in your space. 
+            Partner with me and let’s redefine your online presence.</p>
     </header>
 
     <!-- About Section -->
     <section class="about" style="background-color: #333333;">
         <h2>About Me</h2>
         <p>
-            I am a self-taught junior front-end web developer with over eleven months of experience in creating dynamic and
+            I am a self-taught junior front-end web developer with over six months of experience in creating dynamic and
             user-friendly websites. I've always been fascinated by how websites are built, how they function, and the
             profound impact they have on individuals and businesses alike.
         </p>
@@ -84,7 +86,7 @@
 
     </section>
     <section class="about" style="background-color: #333333;">
-        <h2 style="color: #F1C40F;">Commitment to Continuous Growth and Excellence.</h2>
+        <h2>Commitment to Continuous Growth and Excellence.</h2>
         <p>As I continue to grow and hone my skills, I am committed to staying abreast of industry standards and the latest developments in web technology. 
             My goal is to continuously improve my craft to better serve my clients and deliver websites that are not only visually appealing but also functional,
              responsive, and future-proof through my creative and innovative juices. 
@@ -94,9 +96,9 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="social-icons">
-            <a href="https://www.instagram.com/chocolat.papii/"><i class="fa-brands fa-instagram"></i></a> |
-            <a href="https://www.linkedin.com/in/sibusiso-msimango-63bb8b138/"><i class="fa-brands fa-linkedin-in"></i></a> |
-            <a href="https://wa.me/2788828262"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/chocolat.papii/">Instagram</a> |
+            <a href="https://www.linkedin.com/in/sibusiso-msimango-63bb8b138/">LinkedIn</a> |
+            <a href="https://wa.me/2788828262">Whatsapp</a>
         </div>
         <p>&copy; 2024 Sibusiso Msimango. All rights reserved.</p>
     </footer>

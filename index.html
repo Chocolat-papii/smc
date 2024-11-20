@@ -4,78 +4,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Sibusiso Msimango | Jnr Web Dev </title>
-    <script src="https://kit.fontawesome.com/e6d1f98a15.js" crossorigin="anonymous"></script>
-
+    <title>Projects - Sibusiso Msimango</title>
     <link rel="stylesheet" href="assets/styles.css">
-    <meta name="description" content="A portfolio showcasing the web development projects of Sibusiso Msimango, a junior front-end developer with a background in business and engineering studies.">
-    <meta name="keywords" content="Sibusiso Msimango, freelance web developer, web developer, front-end developer, web developer portfolio, HTML, CSS, JavaScript, responsive design, junior web developer, web development services, website hosting, website maintenance, frontend developer, web development South Africa, web design, responsive websites, web development portfolio, web support services, hosting solutions, SM Connect, South Africa business solutions, SME support services, business networking South Africa, corporate services SA, SM Connect platform, South African business growth, B2B services South Africa, business innovation SA, startup services South Africa">
-    <meta name="author" content="Sibusiso Msimango">
-    <meta name="robots" content="index, follow">
-    <link rel="icon" href="https://i.ibb.co/yVDKbjp/SMCFAV.webp" alt="SMC logo" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/e6d1f98a15.js" crossorigin="anonymous"></script>
     <link rel="icon" href="assets/media/SMCFAV.webp" type="image/x-icon">
-    <meta property="og:title" content="Sibusiso Msimango - Web Developer Portfolio">
-    <meta property="og:description" content="Explore the web development projects of Sibusiso Msimango, showcasing expertise in front-end development.">
-    <meta property="og:image" content="https://i.ibb.co/yVDKbjp/SMCFAV.webp">
-    <meta property="og:url" content="https://smconnect.co.za">
-    <meta property="og:type" content="website">
-    <meta name="google-site-verification" content="RW01QndlemiiFKpISB3QBL3ZnSqHf1i7gSs7H6FB3Do" />
-   
-</head>
+
+</head> 
 
 <body>
     <!-- Top Navigation Bar -->
-    <nav class="top-nav">
-        <div class="container">
-            <a href="index.html" class="logo" class="active">SM</a>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
+    <nav>
+        <ul class="nav-bar">
+            <li class="logo"><a href="index.html"> SM</a></li>
+            <input type="checkbox" id="check">
+            <span class="menu">
+                <li><a href="index.html" >Home </a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="projects.html" class="active" >Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
     </nav>
-    <!-- Hero Section -->
+    <!-- Header -->
     <header class="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Explore my journey in web development</p>
+        <h1>My Projects</h1>
+        <p>Where Vision Meets Execution. Explore my work and see the transformation a great website can bring to your business.</p>
     </header>
 
-   
-    <!-- Introduction Section -->
-    <section class="intro">
-        <h2>About Me</h2>
-        <p>
-            I'm Sibusiso Msimango, a junior front-end web developer with a passion for creating dynamic websites.
-        </p>
-        <a href="about.html" class="btn">Read More</a>
+    <!-- Projects Grid -->
+    <section class="projects-grid">
+        <div class="project-card">
+            <img src="assets/media/mcpimage.png" alt="MCP logo">
+            <h3>MOGALE CREATIONS</h3>
+            <p>I was tasked with developing a website for MOGALE CREATIONS & Projects, a company specializing in 
+                special event organizing and infrastructure provision. Catering to both private and corporate clients, 
+                the website needed to gracefully represent the company and serve as a comprehensive portfolio and be as glamourous as they are. My role 
+                involved creating a platform that effectively showcases who they are and what they do, while maintaining a 
+                professional and elegant design that aligns with their brand identity.</p>
+                <a href="https://mogalecreations.co.za/" target="_blank">mogale creations</a>
+        </div>
+        <div class="project-card">
+            <img src="assets/media/shslogo.jpeg" alt="SHS logo">
+            <h3>Solly's Handyman</h3>
+            <p>Solly's Handyman Services is a long-established company seeking to enhance its professional image. They required a website that was both
+                 simple and impressively designed, reflecting their extensive experience and commitment to quality. My task was to create a platform that
+                  not only showcases their services but also educates clients about their expertise and values. The resulting website successfully 
+              
+                  combines elegance and functionality, effectively communicating the company's strengths and engaging potential clients.</p>
+            <a href="https://sollyshanymanservices.co.za/" target="_blank">solly's Hanyman Services</a>
+        </div>
+        <div class="project-card">
+            <img src="assets/media/ifsimage.jpg" alt="IFS logo">
+            <h3>Izingonya Fire</h3>
+            <p>Izingonyama Fire Services is a fire safety and protection company specializing in fire equipment installations.
+                Although they recognized the importance of integrating the Internet of Things (IoT) into their operations, they were
+                unsure how to achieve this. I stepped in to help them navigate this complex technological landscape. Working under a
+                limited time schedule, I not only developed their website but also guided them in understanding and implementing IoT
+                capabilities. This project required quick thinking and adaptability, ensuring that the company could meet its goals efficiently.</p>
+                <a href="https://izingonyamafire.co.za/" target="_blank">izingonyama Fire Services</a>
+        </div>
+        
     </section>
-
-    <!-- Projects Section -->
-    <section class="projects" style="background-color: #535453;">
-        <h2>My Projects</h2>
-        <p>
-            Check out some of the projects I've worked on.
-        </p>
-        <a href="projects.html" class="btn">View Projects</a>
+    <section class="more-projects">
+            <div class="project-card">
+            <h3>More Projects</h3>
+            <div><a href="https://tcgroups.netlify.app" target="_blank">TC Group</a></div></br></br>
+            <div><a href="https://prestigioussolutions.co.za/" target="_blank">Prestigious Solutions</a></div></br></br>
+            <div><a href="https://levelupkulture.co.za/" target="_blank"> Level Up Kultture</a></div></br></br>
     </section>
-
-    <!-- Contact Section -->
-    <section class="contact-home">
-        <h2>Get In Touch</h2>
-        <p>
-            I'm always open to discussing new opportunities and collaborations.
-        </p>
-        <a href="contact.html" class="btn">Contact Me</a>
-    </section>
+        <!--">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project Title 2</h3>
+            <p>Brief description of the project.</p>
+            <a href=""></a>
+            </div>-->
+    
 
     <!-- Footer -->
     <footer class="footer">
         <div class="social-icons">
-            <a href="https://www.instagram.com/chocolat.papii/"><i class="fa-brands fa-instagram"></i></a> |
-            <a href="https://www.linkedin.com/in/sibusiso-msimango-63bb8b138/"><i class="fa-brands fa-linkedin-in"></i></a> |
-            <a href="https://wa.me/2788828262"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/chocolat.papii/">Instagram</a> |
+            <a href="https://www.linkedin.com/in/sibusiso-msimango-63bb8b138/">LinkedIn</a> |
+            <a href="https://wa.me/2788828262">Whatsapp</a>
         </div>
         <p>&copy; 2024 Sibusiso Msimango. All rights reserved.</p>
     </footer>
