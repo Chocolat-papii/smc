@@ -436,7 +436,7 @@ section li {
 
 }
 
-section ul li::before {
+section ul li::before, .s p::before {
     content: "";
     display: block;
     position: absolute;
@@ -447,6 +447,10 @@ section ul li::before {
     background-color: #8E44AD;
     
 }
+.s p {
+    text-align: left;
+}
+
 
 .contact {
     background-color: #000000;
